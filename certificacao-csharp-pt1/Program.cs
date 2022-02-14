@@ -11,6 +11,8 @@ using certificacao_csharp_roteiro.Aula6___Cast_de_tipos._5___Conversões_com_cla
 using certificacao_csharp_roteiro.Aula7___Lidar_com_tipos_dinâmicos._1___string__var__object_e_dynamic;
 using certificacao_csharp_roteiro.Aula7___Lidar_com_tipos_dinâmicos._2___conversões_entre_dynamic_e_outros_tipos;
 using certificacao_csharp_roteiro.Aula7___Lidar_com_tipos_dinâmicos._3___Resolução_de_Sobrecarga;
+using certificacao_csharp_roteiro.Aula7___Lidar_com_tipos_dinâmicos._4___Adicionando_Membros_Dinamicamente;
+using certificacao_csharp_roteiro.Aula7___Lidar_com_tipos_dinâmicos._5___Interoperabilidade_COM;
 
 namespace certificacao_csharp_roteiro
 {
@@ -109,8 +111,8 @@ namespace certificacao_csharp_roteiro
                 new MenuItem("Usando Dynamic", typeof(UsandoDynamic)),
                 new MenuItem("Conversões de Dynamic", typeof(ConversoesDeDynamic)),
                 new MenuItem("Resolucão de Sobrecarga", typeof(ResolucaoSobrecarga)),
-                //new MenuItem("Usando ExpandObject", typeof(UsandoExpandObject)),
-                //new MenuItem("Interoperabilidade COM", typeof(InteropCOM))                
+                new MenuItem("Usando ExpandObject", typeof(UsandoExpandObject)),
+                new MenuItem("Interoperabilidade COM", typeof(InteropCOM))
             };
         }
     }
