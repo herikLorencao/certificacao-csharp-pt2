@@ -11,6 +11,17 @@ namespace certificacao_csharp_roteiro
         public void Executar()
         {
             int numero = 57;      // tipo de valor
+            object caixa = numero;
+
+            try
+            {
+                int valor = (int)caixa;
+                Console.WriteLine($"Valor do cast: {valor}");
+            }
+            catch (InvalidCastException)
+            {
+                Console.WriteLine("Cast inválido");
+            }
         }
     }
 }
