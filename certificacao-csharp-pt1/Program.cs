@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 using certificacao_csharp_roteiro.Aula6___Cast_de_tipos._1___Conversões_implícitas;
 using certificacao_csharp_roteiro.Aula6___Cast_de_tipos._2___Conversões_Explícitas;
 using certificacao_csharp_roteiro.Aula6___Cast_de_tipos._3___Operadores_IS_e_AS;
+using certificacao_csharp_roteiro.Aula6___Cast_de_tipos._4___Conversões_Definidas_pelo_Usuário;
+using certificacao_csharp_roteiro.Aula6___Cast_de_tipos._5___Conversões_com_classes_auxiliares;
 
 namespace certificacao_csharp_roteiro
 {
@@ -99,8 +101,8 @@ namespace certificacao_csharp_roteiro
                 new MenuItem("Conversoes Implícitas", typeof(ConversoesImplicitas)),
                 new MenuItem("Conversoes Explícitas", typeof(ConversoesExplicitas)),
                 new MenuItem("Operadores IS e AS", typeof(OperadoresISeAS)),
-                //new MenuItem("Operadores de Conversão", typeof(OperadoresDeConversao)),
-                //new MenuItem("Métodos Auxiliares de Conversão", typeof(MetodosAuxiliares)),
+                new MenuItem("Operadores de Conversão", typeof(OperadoresDeConversao)),
+                new MenuItem("Métodos Auxiliares de Conversão", typeof(MetodosAuxiliares)),
                 //new MenuItem("Usando Dynamic", typeof(UsandoDynamic)),
                 //new MenuItem("Conversões de Dynamic", typeof(ConversoesDeDynamic)),
                 //new MenuItem("Resolucão de Sobrecarga", typeof(ResolucaoSobrecarga)),

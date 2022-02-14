@@ -98,6 +98,8 @@
     <Compile Include="Aula6 - Cast de tipos\1 - Conversões implícitas\ConversoesImplicitas.cs" />
     <Compile Include="Aula6 - Cast de tipos\2 - Conversões Explícitas\ConversoesExplicitas.cs" />
     <Compile Include="Aula6 - Cast de tipos\3 - Operadores IS e AS\OperadoresISeAS.cs" />
+    <Compile Include="Aula6 - Cast de tipos\4 - Conversões Definidas pelo Usuário\OperadoresDeConversao.cs" />
+    <Compile Include="Aula6 - Cast de tipos\5 - Conversões com classes auxiliares\MetodosAuxiliares.cs" />
     <Compile Include="IAulaItem.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
