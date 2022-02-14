@@ -95,6 +95,9 @@
     <Compile Include="Aula5 - box ou unbox para converter entre tipos de valor\1 - Boxing\depois\Boxing.cs" />
     <Compile Include="Aula5 - box ou unbox para converter entre tipos de valor\2 - Unboxing\antes\Unboxing.cs" />
     <Compile Include="Aula5 - box ou unbox para converter entre tipos de valor\2 - Unboxing\depois\Unboxing.cs" />
+    <Compile Include="Aula6 - Cast de tipos\1 - Conversões implícitas\ConversoesImplicitas.cs" />
+    <Compile Include="Aula6 - Cast de tipos\2 - Conversões Explícitas\ConversoesExplicitas.cs" />
+    <Compile Include="Aula6 - Cast de tipos\3 - Operadores IS e AS\OperadoresISeAS.cs" />
     <Compile Include="IAulaItem.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

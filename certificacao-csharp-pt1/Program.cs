@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using certificacao_csharp_roteiro.Aula6___Cast_de_tipos._1___Conversões_implícitas;
+using certificacao_csharp_roteiro.Aula6___Cast_de_tipos._2___Conversões_Explícitas;
+using certificacao_csharp_roteiro.Aula6___Cast_de_tipos._3___Operadores_IS_e_AS;
 
 namespace certificacao_csharp_roteiro
 {
@@ -93,9 +96,9 @@ namespace certificacao_csharp_roteiro
                 new MenuItem("Métodos Substituidos", typeof(MetodosSubstituidos)),
                 new MenuItem("Boxing", typeof(Boxing)),
                 new MenuItem("Unboxing", typeof(Unboxing)),
-                //new MenuItem("Conversoes Implícitas", typeof(ConversoesImplicitas)),
-                //new MenuItem("Conversoes Explícitas", typeof(ConversoesExplicitas)),
-                //new MenuItem("Operadores IS e AS", typeof(OperadoresISeAS)),
+                new MenuItem("Conversoes Implícitas", typeof(ConversoesImplicitas)),
+                new MenuItem("Conversoes Explícitas", typeof(ConversoesExplicitas)),
+                new MenuItem("Operadores IS e AS", typeof(OperadoresISeAS)),
                 //new MenuItem("Operadores de Conversão", typeof(OperadoresDeConversao)),
                 //new MenuItem("Métodos Auxiliares de Conversão", typeof(MetodosAuxiliares)),
                 //new MenuItem("Usando Dynamic", typeof(UsandoDynamic)),

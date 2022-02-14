@@ -22,14 +22,14 @@ namespace certificacao_csharp_roteiro
         }
     }
 
-    interface IAnimal
+    public interface IAnimal
     {
         void Beber();
         void Comer();
         void Andar();
     }
 
-    class Animal : IAnimal
+    public class Animal : IAnimal
     {
         public String Nome { get; set; }
 
@@ -49,7 +49,7 @@ namespace certificacao_csharp_roteiro
         }
     }
 
-    class Gato : Animal
+    public class Gato : Animal
     {
         public new void Beber()
         {
@@ -64,6 +64,11 @@ namespace certificacao_csharp_roteiro
         public new void Andar()
         {
             Console.WriteLine("Gato.Andar");
+        }
+
+        public void Miar()
+        {
+            Console.WriteLine("Gato.Miar");
         }
     }
 }
